@@ -31,3 +31,12 @@ body {
     display: grid;
     gap: 10px;
 }
+
+.last-page {
+    display: flex;
+    text-align: center;
+    font-size: 40px;
+    max-width: 50%; 
+    display: none;
+    
+}

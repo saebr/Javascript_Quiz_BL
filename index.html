@@ -21,17 +21,27 @@
         </div>
 
     </div>
+    <!-- Quiz box -->
     <div class="container" id='Questions'>
-        <h2>Question</h2>
-        <div class="answers">
-            <button id="start-btn"> Answer1 </button>
-            <button id="start-btn"> Answer2 </button>
-            <button id="start-btn"> Answer3 </button>
-            <button id="start-btn"> Answer4 </button>
-        </div>
+        <h2 class= 'question'>Question</h2>
+        <div class="answers"></div>
     </div>
 
-</body>
+    <div class="last-page" id="last-page">
+        <div>
+            <h2>Coding Quiz Challenge</h2>
+            <p>Your Score: </p>
+            <form action="/action_page.php">
+                <label for="fname">Your Name Here:</label>
+                <input type="text" id="fname" name="fname"><br><br>
+            <input type="submit" value="Submit">
+            
+            <button id="start-btn"> Go Back </button>
+        </div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script src="./assets/js/script.js"></script>
+</body>
+
 
 </html>
