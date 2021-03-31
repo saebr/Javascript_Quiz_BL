@@ -6,9 +6,22 @@
 body {
     padding: 0;
     margin: 0;
-    display: flex;
     width: 100vw;
     height: 100vh;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom:150px;
+}
+
+
+.body {
+    padding: 0;
+    margin: 0;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -40,3 +53,34 @@ body {
     display: none;
     
 }
+
+.scoresbtn {
+    background:none;
+    border:none;
+    outline: none;
+    font-size:25px;
+    font-weight: bolder;
+    
+}
+
+.scoresbtn:hover {
+    cursor: pointer;
+}
+
+.score-page {
+    display: none;
+}
+
+#score {
+    font-size:25px;
+    font-weight: bolder;
+    
+}
+
+#timer {
+    font-size:25px;
+    font-weight: bolder;
+    
+}
+
+
