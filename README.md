@@ -13,4 +13,4 @@ scores button on the top left to view all other high scores.
 https://saebr.github.io/Javascript_Quiz_BL/
 
 ## Screenshot of site:
-![image](./assets/images/Capture.png)
+![image](./assets/images/Capture.PNG)
